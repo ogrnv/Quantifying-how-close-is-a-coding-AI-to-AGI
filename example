@@ -1,0 +1,2 @@
+Please change TTSR() function in the following C program example.c to achieve the best test results i.e minimal number of moves in all tests.
+See the definitions of moves, test... in the program.

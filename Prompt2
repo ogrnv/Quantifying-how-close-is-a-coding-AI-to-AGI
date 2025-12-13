@@ -1,0 +1,6 @@
+Please change TTSR() function in the following C program example.c to achieve the best test results i.e minimal number of moves in all tests.
+See the definitions of moves, test... in the program.
+
+It is necessary to exclude the occurrence of any software loops, for example, when a chip moves along a closed path due to a change in the TTSR() function.
+
+

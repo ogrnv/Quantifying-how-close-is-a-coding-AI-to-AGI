@@ -10,22 +10,21 @@ Due to the inevitable leakage of the best AI algorithms into other AI systems, t
 The question arises on the admissibility of informing AIs about systematic errors in their algorithms. Because this will add human intelligence to the AI ​​testing results.<p><br>
 <b>The known best results of intelligence tests of AI-generated code for Prompt2 and example.c:</b><br><br>
 8\*8 7 42 5 12 0.2684 Monte Carlo method mc 2025-12-20 07:00:00<br><br>
-8\*8 7 42 5 12 0.2308 free code of Chatgpt.com us 2025-12-18 23:59:00<br><br>
 8\*8 4 59 1&nbsp; 2 1000.00 Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26 and infinite loops<p><br>
 <b>Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>
 demonstrates that the more complex the tasks, the higher the probability of infinite loops:<br><br>
-8\*8 <b>2</b> 59 1 2 <b>666.667</b> aLLM n/a 2025-12-14<-- without infinite loops<br><br>
+8\*8 <b>2</b> 59 1 2 <b>666.667</b> aLLM n/a 2025-12-14 <-- without infinite loops<br><br>
 8\*8 <b>3</b> 59 1 2 <b>285.714</b> aLLM n/a 2025-12-14<br>
 8\*8 <b>3</b> 59 1 2 <b>000.000</b> aLLM n/a 2025-12-14 <-- and infinite loops<br><br>
 8\*8 <b>4</b> 59 1 2 <b>000.000</b> aLLM n/a 2025-12-14 <-- infinite loops<br>
 
- * &nbsp;&nbsp;&nbsp;&nbsp;the number of:
- * &nbsp;&nbsp;&nbsp;&nbsp;cells of the board
- * &nbsp;&nbsp;&nbsp;&nbsp;chip types
- * &nbsp;&nbsp;&nbsp;&nbsp;chips on the board
- * &nbsp;&nbsp;&nbsp;&nbsp;rounds in a test
- * &nbsp;&nbsp;&nbsp;&nbsp;steps in a round
- * 1000 / average number of moves made per step
+ * &nbsp; &nbsp; the number of:
+ * &nbsp; &nbsp; cells of the board
+ * &nbsp; &nbsp; chip types
+ * &nbsp; &nbsp; chips on the board
+ * &nbsp; &nbsp; rounds in a test
+ * &nbsp; &nbsp; steps in a round
+ * intelligence = 1000 / average number of moves made per step
  * AI name
  * country
  * date and time of the code generation

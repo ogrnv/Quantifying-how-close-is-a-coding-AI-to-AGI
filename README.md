@@ -12,7 +12,8 @@ The question arises on the admissibility of informing AIs about systematic error
 8\*8 7 42 50&nbsp; 12 <b>8.01</b> Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26<br><br>
 8\*8 7 42 50&nbsp; 12 <b>1.57</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
 8\*8 7 42 5 12 <b>0.27</b> Monte Carlo method mc 2025-12-20 07:00:00<br><br>
-<p><br>
+<b>Artificial general intelligence must have an intelligence greater than:</b><br><br>
+8\*8 7 42 5 12 <b>300</b><p><br>
 <b>Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>
 demonstrates that the more complex the tasks, the higher the probability of infinite loops:<br><br>
 8\*8 <b>2</b> 59 1 2 <b>666.667</b> aLLM n/a 2025-12-14 <-- without infinite loops<br><br>

@@ -1,3 +1,4 @@
+/*Source: https://github.com/ogrnv/Quantifying-how-close-is-a-coding-AI-to-AGI/tree/main*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/random.h>

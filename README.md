@@ -9,8 +9,8 @@ Because this method can measure intelligence with arbitrarily high precision and
 
 Let's call the intelligence of a known algorithm for solving test tasks white-box intelligence, and an unknown algorithm for solving test tasks black-box intelligence. In these terms, for example, a human coder with black-box intelligence creates white-box intelligence.<br><br>
 <b>The known best results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>the data was obtained with saving global variables before each call of an AI ​​code and restoring the variables after that:<br><br>
-8\*8 7 42 50&nbsp; 12 <b>8.01</b> Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26<br><br>
-8\*8 7 42 50&nbsp; 12 <b>1.57</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
+8\*8 7 42 500&nbsp; 12 <b>2.324298549</b> Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26<br><br>
+8\*8 7 42 500&nbsp; 12 <b>1.515516602</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
 8\*8 7 42 5 12 <b>0.27</b> Monte Carlo method mc 2025-12-20 07:00:00<br><br>
 <b>Artificial general intelligence must have an intelligence greater than 300 for 8\*8 7 42 5 12 <br><br>
 Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>

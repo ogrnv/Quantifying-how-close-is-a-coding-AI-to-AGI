@@ -30,3 +30,6 @@ demonstrates that the more complex the tasks, the higher the probability of infi
  * AI name
  * country
  * date and time of the code generation
+
+pv4.c and pv4i.py are prompts that not require saving/restoring global variables in the genetated code, but AIs  exhibits worse coding results for the prompts.
+

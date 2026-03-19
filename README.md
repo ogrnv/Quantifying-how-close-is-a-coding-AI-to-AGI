@@ -10,8 +10,9 @@ Because this method can measure intelligence with arbitrarily high precision and
 If AI self-improvement is possible, then it could be done by feedback with reinforcement from results of RIT (Random Intelligence Tests).
 <br><br>
 <b>The known best results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>the data was obtained with saving global variables before each call of an AI ​​code and restoring the variables after that:<br><br>
-8\*8 7 42 500&nbsp; 12 <b>2.324298549</b> Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26<br><br>
-8\*8 7 42 500&nbsp; 12 <b>1.515516602</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
+8\*8 7 42 500 12&nbsp; <b>2.324298549</b> Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26<br><br>
+8\*8 7 42 500 12&nbsp; <b>2.075026020</b> free Cursor.com Auto us 2026-03-18 20:15:00<br><br>
+8\*8 7 42 500 12&nbsp; <b>1.515516602</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
 8\*8 7 42 5 12 <b>0.27</b> Monte Carlo method mc 2025-12-20 07:00:00<br><br>
 <b>Artificial general intelligence must have an intelligence greater than 300 for 8\*8 7 42 5 12 <br><br>
 Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>

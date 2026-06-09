@@ -14,7 +14,8 @@ If AI self-improvement is possible, then it could be done by feedback with reinf
 8\*8 7 42 500 12&nbsp; <b>2.324298549</b> Claude.ai Sonnet 4.5 us 2025-12-13 18:59:26<br><br>
 8\*8 7 42 500 12&nbsp; <b>1.515516602</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
 8\*8 7 42 5 12 <b>0.27</b> Monte Carlo method mc 2025-12-20 07:00:00<br><br>
-<b>Artificial general intelligence must have an intelligence greater than 300 for 8\*8 7 42 5 12 <br><br>
+See https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main for the latest results.<br><br>
+<b>Artificial general intelligence must have an intelligence greater than 350 for 8\*8 7 42 5 12 <br><br>
 Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>
 demonstrates that the more complex the tasks, the higher the probability of infinite loops:<br><br>
 8\*8 <b>2</b> 59 1 2 <b>666.667</b> aLLM n/a 2025-12-14 <-- without infinite loops<br><br>

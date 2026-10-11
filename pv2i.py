@@ -9,7 +9,7 @@ It is necessary to exclude the occurrence of any software loops, for example, wh
 pv2.py:
 '''
 #!/usr/bin/env python3
-# Source: https://github.com/ogrnv/Quantifying-how-close-is-a-coding-AI-to-AGI/tree/main
+# Source: https://github.com/ogrnv/Quantifying-how-close-is-a-coding-AI-to-AGI
 import sys
 import time
 import struct
@@ -20,31 +20,69 @@ import os
 tmax = 5000
 rmax = 100000
 '''
-An example of the test round description for a testee:
 
-Let TB be given board with chips or the board with chips after your move(s), TB[address] be an integer assigned to a cell with the address: zero mean an empty cell, non-zero mean a chip marked with the integer on the cell.
+An example of the test description for a testee:
 
-Let EM be a relocation of a chip to a horizontally or vertically adjacent zero cell. As a result of this relocation, the values ​​of TB[from] and TB[to] should swap.
+Game Overview & Role
 
-Every test move must be either an EM or a sequence of several EMs. Let the move start address be SA and the move finish address be FA. Please note: FA must not be equal to SA. Let move number be MN.
-After a valid move, you will be given a verified TB based on your SA, FA, which you must use to make your next move.
+You are the sole player in a grid-based puzzle game. You make the first move.
+Your goal is to complete the target number of Rounds in the fewest total Moves possible.
 
-The goal of the test round is to complete it in the fewest number of moves. The test round ends after 2 step(s). A step ends when YOU by your last move, complete a formation of a straight horizontal or vertical or diagonal line of five or more chips with the same marking. After completing the step, you will receive and must use TB board with these updates: five successive chips are removed from the line (for cases with long or/and several line(s) it is done randomly), then five previously presented chips are randomly added to the free cells of the board.
+Grid & Coordinate System
 
-For the sake of certainty, let in an cell address [i,j], i be the row number, j be the column number and both be numbered from zero.
+    The board (BRD) is a 2D grid.
+    A cell address is formatted as [row,col], both indexed from 0.
+    Cell values:
+        0: Empty cell.
+        An integer > 0: A chip marked with that integer (representing its type).
 
-The board with chips is:
+Movement Rules
 
-2,1,2,2,2,1,1,1
-2,1,2,2,1,2,1,1
-1,1,2,1,2,1,1,1
-2,2,1,2,2,0,2,2
-0,0,1,1,0,2,2,0
-2,1,0,0,2,2,2,2
-1,2,2,0,1,2,1,2
-1,0,0,1,1,2,2,1
+    EM: Relocation a chip to an adjacent empty cell (up/down/left/right) with swapping BRD[from] BRD[to] values.
+    Move: Either a single EM or a chain of EMs.
+    SA: A Move start address. BRD[SA] > 0.
+    FA: A Move finish address. BRD[FA] = 0.
+    SA cannot equal FA.
 
-The next five chips: 2,1,1,1,2
+Rounds, Steps & Win Condition
+
+    A Step is completed when your move creates a straight line (horizontal, vertical, or diagonal) of 5 or more identical chips.
+        Such step can consist of one or more moves.
+
+    Any completed Round consists of Steps Per Round steps.
+    The host performs the following actions when a Step is complete:
+        But the round is not yet over:
+            Five successive chips on the line are cleared (for cases with long or/and several line(s) five successive chips are chosen randomly).
+            Five previewed chips from NEXT5 are placed randomly onto free BRD cells.
+        Round has been completed:
+            BRD and NEXT5 are cleared and randomly repopulated.
+
+    The game ends upon the completion of the last step in the final round.
+
+Constants and Current State
+
+    Board (BRD) Dimensions: 8x8
+    Number of Types of Chips: 7
+    Empty Cells Number: 5
+    Steps Per Round: 6
+    Target Rounds: 2
+    Current Progress:
+        Moves = 0,
+        0 Steps are completed in the Round 1
+        Current Board (BRD):
+
+7,3,5,4,1,5,6,5
+3,4,0,4,2,6,6,4
+2,3,3,1,6,2,7,3
+1,5,4,5,5,6,1,2
+7,2,5,0,3,6,7,7
+4,4,4,5,7,3,2,0
+1,4,2,4,2,2,4,0
+3,5,3,3,5,4,5,0
+
+The next five chips: 7,1,5,7,2
+
+Make your first move now.
 
 all input is 7 parametres:
 '''
@@ -59,7 +97,7 @@ dbg = 0		#print debug info on console
 
 emb = 0		#the number of empty sells on the board
 
-Csb = [[0]*16 for _ in range(16)]	#TB
+Csb = [[0]*16 for _ in range(16)]	#BRD
 n5x = 0
 n5 = [0]*5	#next five chips
 TC = [[0]*16 for _ in range(16)]

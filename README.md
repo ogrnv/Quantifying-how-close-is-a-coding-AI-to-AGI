@@ -15,7 +15,7 @@ If AI self-improvement is possible, then it could be done by feedback with reinf
 8\*8 7 42 500 12&nbsp; <b>1.515516602</b> Chatgpt.com unknown us 2025-12-19 00:04:14<br><br>
 8\*8 7 42 5 12 <b>0.27</b> Monte Carlo method mc 2025-12-20 07:00:00<br><br>
 See https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main for the latest results.<br><br>
-<b>Artificial general intelligence must have an intelligence greater than 350 for 8\*8 7 42 5 12 <br><br>
+<b>Artificial general intelligence must possess intelligence that surpasses known human algorithms.<br><br>
 Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>
 demonstrates that the more complex the tasks, the higher the probability of infinite loops:<br><br>
 8\*8 <b>2</b> 59 1 2 <b>666.667</b> aLLM n/a 2025-12-14 <-- without infinite loops<br><br>
@@ -35,4 +35,6 @@ demonstrates that the more complex the tasks, the higher the probability of infi
  * date and time of the code generation
 
 pv4.c and pv4i.py are prompts that not require saving/restoring global variables in the generated code, but AIs  exhibit worse coding results for the prompts.
+
+pv2i.c and pv2i.py are prompts that require saving/restoring global variables in the generated code. They contain more compact test descriptions.
 

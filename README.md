@@ -9,8 +9,8 @@ Because this method can measure intelligence with arbitrarily high precision and
 
 If AI self-improvement is possible, then it could be done by feedback with reinforcement from results of RIT (Random Intelligence Tests).
 <br><br>
-Artificial General Intelligence must possess coding intelligence that surpasses coding intelligence of known human algorithms for solving tasks of random intelligence tests.<br><br>
-<b>The known best results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>the data was obtained with saving global variables before each call of an AI ​​code and restoring the variables after that:<br>
+Artificial General Intelligence must possess coding intelligence, which surpasses coding intelligence of known human algorithms for solving tasks of random intelligence tests.<br><br>
+<b>Some results of intelligence tests of AI-generated code for Prompt2 and example.c:</b><br>
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
 |8×8|7|42|500|12| **172.231** |gemini-3.5-flash|us|2026-05-23 08:07:00|
@@ -25,8 +25,7 @@ Where:<br>
 &nbsp; &nbsp; SinR -steps in a round<br>
 &nbsp; &nbsp; Intelligence (for specific Grid, NChipT, Chips, SinR values) = 1000 / average number of moves made per step<br>
 &nbsp; &nbsp; Timestamp - date and time of the code generation<br><br>
-<b>The known best results of intelligence tests of AI-generated code for pv2i.c</b><br>
-the data was obtained with saving global variables before each call of an AI ​​code and restoring the variables after that:
+<b>Some results of intelligence tests of AI-generated code for pv2i.c:</b>
 
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
@@ -35,6 +34,5 @@ the data was obtained with saving global variables before each call of an AI ​
 |8×8|7|42|50|6| **0.431** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
 
 <br>See https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main for the more results.<br><br>
-pv4.c and pv4i.py are prompts that not require saving/restoring global variables in the generated code, but AIs  exhibit worse coding results for the prompts.<br><br>
-pv2i.c and pv2i.py are prompts that require saving/restoring global variables in the generated code. They contain more compact test descriptions.
-
+example.c, pv2i.c and pv2i.py are prompts that require saving and restoring global variables, thereby preventing them from being modified by AI-generated code. pv2i.c and pv2i.py contain more compact test descriptions.<br><br>
+pv4.c and pv4i.py are prompts that do not require saving and restoring global variables, but AIs  exhibit worse coding results for the prompts.<br><br>

@@ -9,6 +9,7 @@ Because this method can measure intelligence with arbitrarily high precision and
 
 If AI self-improvement is possible, then it could be done by feedback with reinforcement from results of RIT (Random Intelligence Tests).
 <br><br>
+Artificial General Intelligence must possess coding intelligence that surpasses coding intelligence of known human algorithms for solving tasks of random intelligence tests.<br><br>
 <b>The known best results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>the data was obtained with saving global variables before each call of an AI ​​code and restoring the variables after that:<br>
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
@@ -22,36 +23,18 @@ Where:<br>
 &nbsp; &nbsp; Chips - chips on the board<br>
 &nbsp; &nbsp; Rounds - rounds in a test<br>
 &nbsp; &nbsp; SinR -steps in a round<br>
-&nbsp; &nbsp; Intelligence(for specific Grid, NChipT, Chips, SinR values) = 1000 / average number of moves made per step<br>
+&nbsp; &nbsp; Intelligence (for specific Grid, NChipT, Chips, SinR values) = 1000 / average number of moves made per step<br>
 &nbsp; &nbsp; Timestamp - date and time of the code generation<br><br>
-See https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main for the more results.<br><br>
 <b>The known best results of intelligence tests of AI-generated code for pv2i.c</b><br>
 the data was obtained with saving global variables before each call of an AI ​​code and restoring the variables after that:
 
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
 |8×8|7|59|50|6| **2.408** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
+|8×8|7|59|300|1| **2.593** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
+|8×8|7|42|50|6| **0.431** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
 
-<br><b>Artificial General Intelligence must possess coding intelligence that surpasses coding intelligence of known human algorithms for solving tasks of random intelligence tests.<br><br>
-Typical results of intelligence tests of AI-generated code for Prompt2 and example.c</b><br>
-demonstrates that the more complex the tasks, the higher the probability of infinite loops:<br><br>
-8\*8 <b>2</b> 59 1 2 <b>666.667</b> aLLM n/a 2025-12-14 <-- without infinite loops<br><br>
-8\*8 <b>3</b> 59 1 2 <b>285.714</b> aLLM n/a 2025-12-14<br>
-8\*8 <b>3</b> 59 1 2 <b>000.000</b> aLLM n/a 2025-12-14 <-- and infinite loops<br><br>
-8\*8 <b>4</b> 59 1 2 <b>000.000</b> aLLM n/a 2025-12-14 <-- infinite loops<br>
-
- * &nbsp; &nbsp; the number of:
- * &nbsp; &nbsp; cells of the board
- * &nbsp; &nbsp; chip types
- * &nbsp; &nbsp; chips on the board
- * &nbsp; &nbsp; rounds in a test
- * &nbsp; &nbsp; steps in a round
- * intelligence = 1000 / average number of moves made per step
- * AI name
- * country
- * date and time of the code generation
-
-pv4.c and pv4i.py are prompts that not require saving/restoring global variables in the generated code, but AIs  exhibit worse coding results for the prompts.
-
+<br>See https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main for the more results.<br><br>
+pv4.c and pv4i.py are prompts that not require saving/restoring global variables in the generated code, but AIs  exhibit worse coding results for the prompts.<br><br>
 pv2i.c and pv2i.py are prompts that require saving/restoring global variables in the generated code. They contain more compact test descriptions.
 

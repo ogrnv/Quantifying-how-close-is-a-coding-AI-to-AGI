@@ -9,7 +9,7 @@ Because this method can measure intelligence with arbitrarily high precision and
 
 If AI self-improvement is possible, then it could be done by feedback with reinforcement from results of RIT (Random Intelligence Tests).
 <br><br>
-Artificial General Intelligence must possess coding intelligence, which surpasses coding intelligence of known human algorithms for solving tasks of random intelligence tests.<br><br>
+Artificial General Intelligence must be capable of creating algorithms that yield better results on RIT tasks than the best human-designed algorithms for the same purpose.<br><br>
 <b>Some results of intelligence tests of AI-generated code for Prompt2 and example.c:</b><br>
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|

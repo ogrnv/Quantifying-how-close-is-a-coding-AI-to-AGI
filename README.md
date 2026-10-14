@@ -29,10 +29,9 @@ Where:<br>
 
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
-|8×8|7|59|50|6| **2.408** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
-|8×8|7|59|300|1| **2.593** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
-|8×8|7|42|50|6| **0.431** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
+|8×8|7|59|500|6| **2.431** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
+|8×8|7|59|1000|1| **2.568** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|2.431
 
-<br>See https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main for the more results.<br><br>
+<br>Additional results are available at https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main .<br><br>
 example.c, pv2i.c and pv2i.py are prompts that require saving and restoring global variables, thereby preventing them from being modified by AI-generated code. pv2i.c and pv2i.py contain more compact test descriptions.<br><br>
 pv4.c and pv4i.py are prompts that do not require saving and restoring global variables, but AIs  exhibit worse coding results for the prompts.<br><br>

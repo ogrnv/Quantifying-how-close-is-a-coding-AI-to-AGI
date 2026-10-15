@@ -14,7 +14,6 @@ Artificial General Intelligence must be capable of creating algorithms that yiel
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
 |8×8|7|42|500|12| **172.231** |gemini-3.5-flash|us|2026-05-23 08:07:00|
-|8×8|7|42|500|12| **2.324** |Claude.ai Sonnet 4.5|us|2025-12-13 18:59:26|
 |8×8|7|42|500|12| **1.516** |Chatgpt.com|us|2025-12-19 00:04:14|
 |8×8|7|42|5|12| **0.27** |Monte Carlo method| |2025-12-20 07:00:00|
 

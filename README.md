@@ -16,6 +16,8 @@ Artificial General Intelligence must be capable of creating algorithms that yiel
 |8×8|7|42|500|12| **172.231** |gemini-3.5-flash|us|2026-05-23 08:07:00|
 |8×8|7|42|500|12| **1.516** |Chatgpt.com|us|2025-12-19 00:04:14|
 |8×8|7|42|5|12| **0.27** |Monte Carlo method| |2025-12-20 07:00:00|
+|8×8|7|59|500|6| **34.569** |gemini-3.5-flash|us|2026-05-23 08:07:00|
+|8×8|7|59|1000|1| **29.266** |gemini-3.5-flash|us|2026-05-23 08:07:00|
 
 Where:<br>
 &nbsp; &nbsp; NChipT - the number of chip types<br>
@@ -29,7 +31,7 @@ Where:<br>
 | Grid | NChipT | Chips | Rounds | SinR | **Intelligence** | Model | Region | Timestamp |
 |------|------|-------|-------|-----|------------|-------|--------|-----------|
 |8×8|7|59|500|6| **2.431** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
-|8×8|7|59|1000|1| **2.568** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|2.431
+|8×8|7|59|1000|1| **2.568** |sakana.ai Fugu Max|jp|2026-10-13 08:15:00|
 
 <br>Additional results are available at https://github.com/ogrnv/Anticipating-algorithm-for-solving-tasks-of-random-intelligence-tests/tree/main .<br><br>
 example.c, pv2i.c and pv2i.py are prompts that require saving and restoring global variables, thereby preventing them from being modified by AI-generated code. pv2i.c and pv2i.py contain more compact test descriptions.<br><br>
